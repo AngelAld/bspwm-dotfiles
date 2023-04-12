@@ -1,6 +1,6 @@
 # bspwm-dotfiles
 
-##Instalar:
+## Instalar:
 
 * flashfocus
 * picom 
@@ -8,9 +8,9 @@
 * rofi
 * flameshot
 
-##
+## Ejecutar
 
-##Previews
+## Previews
 ![](https://i.imgur.com/TSdtbRp.png)
 
 
