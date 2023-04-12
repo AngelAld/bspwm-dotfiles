@@ -11,6 +11,7 @@
 * flameshot
 
 ## Ejecutar
+
 ```
 git clone https://github.com/AngelAld/bspwm-dotfiles.git
 
