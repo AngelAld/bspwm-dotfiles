@@ -7,9 +7,13 @@ super + shift + b
 super + Return
 	alacritty
 
+super + shift + f 
+	pcmanfm
+
+
 # program launcher
 super + @space
-	dmenu_run
+		{setxkbmap us, setxkbmap latam} ; $HOME/.scripts/layout
 
 alt + d 
 	rofi -show drun

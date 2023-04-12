@@ -1,0 +1,11 @@
+#!/bin/bash
+
+output=$(setxkbmap -query)
+
+# extraer solo la distribución
+layout=$(echo "$output" | awk -F': +' '/layout/ {print $2}')
+
+dunstify -h string:x-dunst-stack-tag:layout "Keyboard Layout:" "$layout"
+
+
+

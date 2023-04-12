@@ -21,5 +21,5 @@ $HOME/.screenlayout/pantallas.sh
 
 wal -R
 flashfocus
+dunst
 picom -b
-

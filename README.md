@@ -2,13 +2,19 @@
 
 ## Instalar:
 
-
+* bspwm
+* sxhkd
+* yay
 * flashfocus
 * picom 
 * alacritty
+* python-pywal
+* feh
 * rofi
 * neofetch
 * flameshot
+* adapta-gtk-theme
+* lxappearance
 
 ## Ejecutar
 
