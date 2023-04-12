@@ -1,11 +1,12 @@
 # bspwm-dotfiles
 
-dependencies:
+Instalar:
 
 * flashfocus
 * picom 
 * alacritty
 * rofi
+* neofetch
 
 
 
