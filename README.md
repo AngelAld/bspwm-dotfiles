@@ -15,7 +15,7 @@
 * flameshot
 * adapta-gtk-theme
 * lxappearance
-
+* LazyVim https://www.lazyvim.org/keymaps
 ## Ejecutar
 
 ```
