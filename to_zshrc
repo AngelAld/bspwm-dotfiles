@@ -1,0 +1,13 @@
+alias lll='lsd -lh --group-dirs=first'
+alias lla='lsd -a --group-dirs=first'
+alias ld='lsd --group-dirs=first'
+alias llla='lsd -lha --group-dirs=first'
+alias lls='lsd --group-dirs=first'
+alias fetch='neofetch'
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-sudo/sudo.plugin.zsh
+
