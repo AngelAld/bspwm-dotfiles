@@ -19,7 +19,7 @@
 * npm
 * polybar
 * pcmanfm 
-
+* Papirus Icons
 ## Ejecutar
 
 ```
