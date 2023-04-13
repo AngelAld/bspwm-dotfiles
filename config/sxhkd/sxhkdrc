@@ -16,11 +16,12 @@ super + @space
 		{setxkbmap us, setxkbmap latam} ; $HOME/.scripts/layout
 
 alt + d 
-	rofi -show drun
+	$HOME/.config/rofi/launchers/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+	$HOME/.config/rofi/powermenu.sh
+#	pkill -USR1 -x sxhkd
 
 #
 # bspwm hotkeys
