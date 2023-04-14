@@ -15,11 +15,18 @@
 * flameshot
 * adapta-gtk-theme
 * lxappearance
-* LazyVim https://www.lazyvim.org/keymaps
+* LazyVim https://www.lazyvim.org/installation
 * npm
 * polybar
 * pcmanfm 
 * Papirus Icons
+* arandr
+* xfce4-power-manager
+
+* zsh
+* oh my zsh
+* powerlvl10k
+
 ## Ejecutar
 
 ```
@@ -31,6 +38,7 @@ mkdir ~/.config
 mkdir ~/.local/share/fonts
 mkdir ~/.scripts
 
+cp to_zshrc ~/.zshrc
 
 cp -r config/* ~/.config/ 
 
