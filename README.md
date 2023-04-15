@@ -22,7 +22,6 @@
 * Papirus Icons
 * arandr
 * xfce4-power-manager
-
 * zsh
 * oh my zsh
 * powerlvl10k
@@ -50,7 +49,8 @@ fc-cache -fv
 ```
 
 ## Previews
-![](https://i.imgur.com/TSdtbRp.png)
-
-
-
+![](https://i.imgur.com/w7dqRVm.png)
+---
+![](https://i.imgur.com/HYzfNgu.png)
+---
+![](https://i.imgur.com/NtDGvOx.png)
