@@ -51,6 +51,4 @@ fc-cache -fv
 ## Previews
 ![](https://i.imgur.com/w7dqRVm.png)
 ---
-![](https://i.imgur.com/HYzfNgu.png)
----
-![](https://i.imgur.com/NtDGvOx.png)
+
