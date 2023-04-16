@@ -53,10 +53,4 @@ wal -i wall_gruvbox_girl.png
 ![](https://i.imgur.com/Tturtwy.png)
 
 ---
-<<<<<<< HEAD
 ![](https://i.imgur.com/lBFmulk.png)
-
-
-=======
->>>>>>> 4e48cb6e84f1e7707d4eb01bfe60ee380b0ae80c
-
