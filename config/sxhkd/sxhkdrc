@@ -4,8 +4,12 @@
 super + shift + b 
 	google-chrome-stable
 # terminal emulator
+
 super + Return
 	alacritty
+
+super + e 
+  alacritty --config-file=$HOME/.config/alacritty/neovim.yml
 
 super + shift + f 
 	pcmanfm
@@ -13,7 +17,7 @@ super + shift + f
 
 # program launcher
 super + @space
-		{setxkbmap us, setxkbmap latam} ; $HOME/.scripts/layout
+		{setxkbmap latam, setxkbmap us} ; $HOME/.scripts/layout
 
 alt + d 
 	$HOME/.config/rofi/launchers/launcher.sh
@@ -80,7 +84,7 @@ super + {_,shift + }c
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+	bspc monitor -f {prev,next}
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -130,3 +134,21 @@ alt + {Left,Down,Up,Right}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+Print
+  flameshot gui
+
+# playerctl 
+
+#play/pause
+XF86AudioPlay
+  playerctl --player %any,chromium play-pause
+
+XF86AudioPause
+  playerctl --player %any,chromium pause
+
+XF86AudioNext
+  playerctl --player %any,chromium next
+
+XF86AudioPrev
+  playerctl --player %any,chromium previous

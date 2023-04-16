@@ -28,4 +28,5 @@ flashfocus &
 picom -b &
 pa-applet &
 xfce4-power-manager &
+$HOME/.scripts/java.sh &
 dunstify 'bspwm reloaded'

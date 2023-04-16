@@ -11,20 +11,17 @@
 * python-pywal
 * feh
 * rofi
-* neofetch
 * flameshot
 * adapta-gtk-theme
 * lxappearance
 * LazyVim https://www.lazyvim.org/installation
-* npm
 * polybar
-* pcmanfm 
 * Papirus Icons
 * arandr
-* xfce4-power-manager
 * zsh
 * oh my zsh
 * powerlvl10k
+* redshift
 
 ## Ejecutar
 
@@ -46,11 +43,17 @@ cp -r misc/fonts/* ~/.local/share/fonts/
 cp -r  scripts/* ~/.scripts/ 
 
 fc-cache -fv
+
+wal -i wall_gruvbox_girl.png
+
 ```
 
 ## Previews
-![](https://i.imgur.com/w7dqRVm.png)
+
+![](https://i.imgur.com/Tturtwy.png)
+
 ---
-![](https://i.imgur.com/HYzfNgu.png)
----
-![](https://i.imgur.com/NtDGvOx.png)
+![](https://i.imgur.com/lBFmulk.png)
+
+
+

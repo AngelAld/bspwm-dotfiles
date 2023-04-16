@@ -1,0 +1,63 @@
+window:
+    padding:
+     x: 0
+     y: 0
+
+    dynamic_padding: false
+
+    opacity: 1.0
+
+    title: Alacritty
+
+    dynamic_title: true
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+  size: 11.0 
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+draw_bold_text_with_bright_colors: true
+
+#selection:
+  # This string contains all characters that are used as separators for
+  # "semantic words" in Alacritty.
+  #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  #save_to_clipboard: false
+
+cursor:
+  style:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: underline
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: On
+    blink_interval: 750
+    blink_timeout: 5
+    unfocused_hollow: true
+    thickness: 0.15
+
+live_config_reload: true
+
+shell:
+  program: /bin/zsh

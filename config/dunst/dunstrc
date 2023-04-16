@@ -18,11 +18,11 @@
     height = 100
 
     # Position the notification in the top right corner
-    origin = bottom-right
+    origin = top-right
 
     # Offset from the origin
     #offset = 15x35
-    offset = 0x0
+    offset = 0x25
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
 
@@ -62,7 +62,7 @@
     # notifications.
     # Set to 0 to disable.
     # If gap_size is greater than 0, this setting will be ignored.
-    separator_height = 12
+    separator_height = 10
 
     # Padding between text and separator.
     padding = 8
@@ -75,7 +75,7 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 12
+    frame_width = 10
 
 
     # Defines color of the frame around the notification window.
@@ -128,7 +128,7 @@
     # Show age of message if message is older than show_age_threshold
     # seconds.
     # Set to -1 to disable.
-    show_age_threshold = 60
+    show_age_threshold = 20
 
     # Specify where to make an ellipsis in long lines.
     # Possible values are "start", "middle" and "end".
@@ -153,7 +153,7 @@
     enable_recursive_icon_lookup = true
 
     # Set icon theme (only used for recursive icon lookup)
-    icon_theme = Adwaita,ePapirus-Dark
+    icon_theme = "Adwaita, Papirus-Dark"
     # You can also set multiple icon themes, with the leftmost one being used first.
     # icon_theme = "Adwaita, breeze"
 
@@ -207,13 +207,14 @@
     force_xwayland = false
 
    # layout changes.
+   # 
     force_xinerama = false
 
    # will be executed in sequence.
     mouse_left_click = close_current
     mouse_middle_click = do_action, close_current
     mouse_right_click = close_all
-    highlight = "#FFFFFF99"
+    highlight = "#303030"
 # Experimental features that may or may not work correctly. Do not expect them
 # to have a consistent behaviour across releases.
 [experimental]
@@ -224,15 +225,16 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#303030"
-    foreground = "#ffffff"
+    background = "#fbf1c7"
+    foreground = "#303030"
     timeout = 10
 
 [urgency_normal]
-    background = "#303030"
-    foreground = "#ffffff"
+    background = "#fbf1c7"
+    foreground = "#303030"
     timeout = 10
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
+    background = "#cc241d"
+    foreground = "#fbf1c7"
+
