@@ -17,6 +17,7 @@
 * LazyVim https://www.lazyvim.org/installation
 * polybar
 * Papirus Icons
+* Gruvbox Icons https://github.com/SylEleuth/gruvbox-plus-icon-pack
 * arandr
 * zsh
 * oh my zsh
