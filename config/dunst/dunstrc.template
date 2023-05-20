@@ -110,25 +110,25 @@
     mouse_left_click = do_action, close_current
     mouse_middle_click = close_all
     mouse_right_click = close_current
-    highlight = "#1d1c1c"
+    highlight = "${wal.color0}"
 [experimental]
     per_monitor_dpi = false
  
 [urgency_low]
-    background = "#a29299"
-    foreground = "#1d1c1c"
+    background = "${wal.color8}"
+    foreground = "${wal.color0}"
     timeout = 5
     icon = /home/an/.config/dunst/normal.png
 
 [urgency_normal]
-    background = "#C5B7CE"
-    foreground = "#1d1c1c"
+    background = "${wal.color6}"
+    foreground = "${wal.color0}"
     timeout = 10
     icon = /home/an/.config/dunst/low.png
 
 [urgency_critical]
-    background = "#CA7D82"
-    foreground = "#1d1c1c"
+    background = "${wal.color1}"
+    foreground = "${wal.color0}"
     icon = /home/an/.config/dunst/critical.png
 
 [pa-applet]

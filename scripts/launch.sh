@@ -8,6 +8,7 @@ pkill picom
 pkill pa-applet
 pkill polybar
 pkill xfce4-power-manager
+pkill nm-applet
 # esperamos un segundo
 
 sleep 1
@@ -22,11 +23,13 @@ else
 	polybar --reload example &
 fi
 
-dunst &
 wal -R &
 flashfocus &
 picom -b &
 pa-applet &
 xfce4-power-manager &
-$HOME/.scripts/java.sh &
-dunstify 'bspwm reloaded'
+nm-applet &
+xinput set-prop 'ELAN0001:00 04F3:3140 Touchpad' 'libinput Tapping Enabled' 1 &
+$HOME/.scripts/misc/java.sh &
+dunst &
+dunstify --urgency=low 'bspwm' 'Environment was reloaded'

@@ -1,9 +1,9 @@
 window:
     padding:
-     x: 0
+     x: 5
      y: 0
 
-    dynamic_padding: false
+    dynamic_padding: true
 
     opacity: 1.0
 
@@ -61,3 +61,30 @@ live_config_reload: true
 
 shell:
   program: /bin/zsh
+# BEGIN ACE
+colors:
+  primary:
+    background: '#1d1c1c'
+    foreground: '#e8d1db'
+  cursor:
+    text:       '#1d1c1c'
+    cursor:     '#e8d1db'
+  normal:
+    black:      '#1d1c1c'
+    red:        '#CA7D82'
+    green:      '#A594A1'
+    yellow:     '#AAA9BB'
+    blue:       '#C694A0'
+    magenta:    '#BAAFC6'
+    cyan:       '#C5B7CE'
+    white:      '#e8d1db'
+  bright:
+    black:      '#a29299'
+    red:        '#CA7D82'
+    green:      '#A594A1'
+    yellow:     '#AAA9BB'
+    blue:       '#C694A0'
+    magenta:    '#BAAFC6'
+    cyan:       '#C5B7CE'
+    white:      '#e8d1db'
+# END ACE

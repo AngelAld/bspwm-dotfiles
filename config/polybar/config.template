@@ -17,13 +17,13 @@
 ;==========================================================
 
 [colors]
-background = #1d1c1c
-background-alt = #a29299
-foreground = #e8d1db
-foreground-alt = #e8d1db
-primary = #AAA9BB
-secondary = #A594A1
-alert = #CA7D82
+background = ${wal.color0}
+background-alt = ${wal.color8}
+foreground = ${wal.color7}
+foreground-alt = ${wal.color7}
+primary = ${wal.color3}
+secondary = ${wal.color2}
+alert = ${wal.color1}
 
 [bar/example]
 monitor = ${env:MONITOR:}
